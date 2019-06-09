@@ -3,7 +3,7 @@ System.config({
   meta: {
     '*': {
       globals: {
-        process: 'process.js'
+        process: 'config/env.js'
       }
     }
   },
