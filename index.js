@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Greeting} from './components/greeting.js';
+import {List} from './components/list.js';
 
-class App extends React.Component {
-  render() {
-    return <Greeting name="itzik" />;
-  }
+function Showcase() {
+    return <List items={['item1', 'item2', 'item3']}/>;
 }
 
 ReactDOM.render(
-  <App/>,
-  document.getElementById('app')
+  <Showcase/>,
+  document.getElementById('anchor')
 );
