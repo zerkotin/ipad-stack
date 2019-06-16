@@ -1,0 +1,16 @@
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 3px 6px;
+    margin: 5px;
+    border-radius: 3px;
+    background-color: #bbd2f7;
+}
+
+.button:hover {
+    background-color: light-grey;
+}
+
+.button:active {
+    box-shadow: 1px 1px 2px 2px black;
+}
